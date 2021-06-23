@@ -16,11 +16,11 @@ import random
 app = Flask(__name__)
 
 
-line_bot_api = LineBotApi('IXRxwqm8APZR4GVoBrtlvToQdtw1/n9MO321x0ShQF2VHrO6vSEkVciUu27m2vO3HxdoIPkIXpLjFRcdQRaXcXkI1CC+VB05TAzo7uCz767hC/h9i2BXhbxJSXq38GrY+itTfxsenjv/D1j/EDsAIQdB04t89/1O/w1cDnyilFU=')
+line_bot_api = LineBotApi('T4nAgN2nZLMgRdRTQwTTTIrDqlSw1BXSfWDwWY1doXfpjIxJjlRLDoXQPJf182w6OmhoIqKc63xI2YM72oyqsnE1IEGxMra/2lenRfDA1br3643HzA90L/uGB7xqqIHeqJuXiNDONh9iLdcZ/3wplQdB04t89/1O/w1cDnyilFU=')
 
-handler = WebhookHandler('0674aca0e9c5a8748ec13da2554120b1')
+handler = WebhookHandler('ba9f10654ac137b5396322bf7b210193')
 
-line_bot_api.push_message('U7e412adb8062fdea32f4dec57ea68487'), TextSendMessage(text='參考訊息 請接收'))
+line_bot_api.push_message('U48a31f0323b2cd4b7aa46f923c079e41', TextSendMessage(text='測試測試不用緊張<3'))
 
 @app.route("/callback", methods=['POST'])
 def callback():
