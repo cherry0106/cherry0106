@@ -20,7 +20,7 @@ line_bot_api = LineBotApi('IXRxwqm8APZR4GVoBrtlvToQdtw1/n9MO321x0ShQF2VHrO6vSEkV
 
 handler = WebhookHandler('0674aca0e9c5a8748ec13da2554120b1')
 
-line_bot_api.push_message('U7e412adb8062fdea32f4dec57ea68487'), TextSendMessage(text='軌'))
+line_bot_api.push_message('U7e412adb8062fdea32f4dec57ea68487'), TextSendMessage(text='參考訊息 請接收'))
 
 @app.route("/callback", methods=['POST'])
 def callback():
